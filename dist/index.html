@@ -39,9 +39,10 @@
     window.onload = function() {
       // Begin Swagger UI call region
       const ui = SwaggerUIBundle({
-        url: "https://petstore.swagger.io/v22222/swagger.json",
+        url: "https://docs.ops.medapp.nu/stoplight/medapp-api.oas3.yml",
         dom_id: '#swagger-ui',
         deepLinking: true,
+        docExpansion: 'none',
         presets: [
           SwaggerUIBundle.presets.apis,
           SwaggerUIStandalonePreset

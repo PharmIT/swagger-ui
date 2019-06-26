@@ -1,4 +1,4 @@
 ---
-url: "https://petstore.swagger.com/v4/swagger.json"
+url: "https://docs.ops.medapp.nu/stoplight/medapp-api.oas3.yml"
 dom_id: "#swagger-ui"
 validatorUrl: "https://online.swagger.io/validator"
