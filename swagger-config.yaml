@@ -1,4 +1,4 @@
 ---
-url: "stoplight-repo/api-docs-beta.oas2.yml"
+url: "https://petstore.swagger.com/v4/swagger.json"
 dom_id: "#swagger-ui"
 validatorUrl: "https://online.swagger.io/validator"
