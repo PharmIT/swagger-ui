@@ -39,7 +39,11 @@
     window.onload = function() {
       // Begin Swagger UI call region
       const ui = SwaggerUIBundle({
-        url: "https://docs.ops.medapp.nu/stoplight/medapp-api.oas3.yml",
+        url: [
+          { url: "https://docs.ops.medapp.nu/stoplight/medapp-api.oas3.yml", name: "MedAPI MedApp" },
+          { url: "https://docs.ops.medapp.nu/stoplight/medapp-api.oas3.yml", name: "MedAPI Private" },
+          { url: "https://docs.ops.medapp.nu/stoplight/medapp-api.oas3.yml", name: "MedAPI Public" }
+        ],
         dom_id: '#swagger-ui',
         deepLinking: true,
         docExpansion: 'none',
